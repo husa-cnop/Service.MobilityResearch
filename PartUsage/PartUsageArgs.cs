@@ -1,5 +1,6 @@
 ﻿using Cackle.ConsoleApp;
 using CommandLine;
+using Service.CommonTypes;
 
 namespace MobilityResearch.PartUsage;
 
@@ -8,7 +9,7 @@ internal class PartUsageArgs : ICommandArgs
 {
     [Option('u', "users", Required = true,
         HelpText = "ServiceMobility user name")]
-    public string UserName { get; set; } = string.Empty;
+    public RegionZoneTech UserName { get; set; }
 
     [Option('s', "startDate", Required = false, 
         HelpText = "Start date of report; defaults to 24 hours ago")]
