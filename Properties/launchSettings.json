@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MobilityResearch": {
+      "commandName": "Project",
+      "commandLineArgs": "usage -u 12401916 -s 2023-01-01 -e 2023-10-01"
+    }
+  }
+}
